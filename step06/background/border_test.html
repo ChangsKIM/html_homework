@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 복습</title>
+    <style>
+        table{
+            width: 800px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        tr,th{
+            border-top: 2px solid black;
+            /* border-bottom: 2px solid black; */
+            text-align: center;
+            padding: 5px;
+            
+        }
+        th{
+            font-size: 1.2em;
+            background-color: aquamarine;
+        }
+        button{
+            margin: 7px;
+            width: 30px;
+            height: 30px;
+            border: transparent;
+            border-radius: 10px;
+        }
+        .abc{
+            color: white;
+            background-color: blue;
+                 
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>게시판</caption>
+        <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>날짜</th>
+            <th>조회수</th>
+            <th>좋아요</th>
+            <th>싫어요</th>
+        </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>제목01</td>
+                <td>2024-03-09</td>
+                <td>100</td>
+                <td>0</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>제목02</td>
+                <td>2024-03-30</td>
+                <td>44</td>
+                <td>63</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>제목03</td>
+                <td>2024-06-05</td>
+                <td>120</td>
+                <td>33</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>제목04</td>
+                <td>2024-07-22</td>
+                <td>200</td>
+                <td>120</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>제목05</td>
+                <td>2024-10-09</td>
+                <td>111</td>
+                <td>22</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" style="border: none;">
+                    <button><</button>
+                    <button>1</button>
+                    <button class="abc">2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>></button>
+                </td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+</html>

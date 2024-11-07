@@ -1,0 +1,62 @@
+1. 제목태그 h1 ~ h6
+2. 구분태그 hr
+3. 문단태그 p
+4. 줄바꿈 br
+5. 글꼴 강조(굵게, 기울임, 밑줄), b/strong, i/em, u/ins
+6. 공백 &nbsp;
+7. 카피라이드 &copy
+8. 목록 - 순번이 있는 태그 ol (reverse, start)
+9. 목록 - 순번이 없는 태그 ul
+10. 목록태그 항목 li
+
+----------------------------------------------------------
+img > enter : 이미지 첨부
+   - width : 가로
+   - height ; 세로
+   - ../ 상위폴더(상대경로)
+   - ./ 현재폴더(상대경로)
+   - / 절대경로 시작
+   - 인터넷 내에 이미지 우클릭 > 이미지 주소복사 > 해당 복사 붙여넣기
+
+video, audio : 동영상 및 오디오 첨부
+   - controls : 재생버튼
+   - loop : 연속재생
+   - autoplay : 자동실행
+   - poster : 썸네일
+
+하이퍼링크 :
+   - a fref="이동할 페이지" target="출력위치"
+   - a fref="tel: 전화번호"
+   - a fref="sms: 전화번호"
+   - a fref="mailto: 이메일"
+
+------------------------------------------------------------
+table(표)
+   - tr : 행 영역을 잡는 태그
+   - td : 열 영역을 잡는 태그
+   - th : 테이블의 제목에 붙이는 태그
+   - colspan : 열 합치기
+   - rowspan : 행 합치기
+   - thead : 내용상으로 제목영역과 내용여역을 나누는 태그
+   - tbody : 테이블의 본문영역 태그
+   - tfoot : 테이블 바닥글 태그
+   - caption : 표 제목
+------------------------------------------------------------
+   - input 태그 <input type="type"에 따라 입력받는 형태가 달라짐(text, password)
+   - input, name, placeholder, button, autofocus, required -->
+   - form : 서버에 전송하는 역할
+   - action : 속성을 통해 데이터를 제출할 url지정
+   - method : 속성으로 데이터를 서버에 전송하는 방식을 선택
+   - input : 데이터를 입력할 수 있는 여러 유형의 필드를 제공
+   - type : 속성을 통해 텍스트, 이메일, 비밀번호, 숫자 등 입력 형식을 지성
+   - name : input 필드에 고유한 이름을 지정
+   - placeholder : 기본적으로 보이는 안내 문구를 제공
+   - autofocus : 입력 필드에 자동으로 포커스를 맞춤
+   - required : 필수 입력 필드로 설정, 필드를 채우지 않으면 제출되지 않음
+   - maxlength : 입력할 수 있는 최대 문자 길이 지정
+   - minlength : 최소 입력해야하는 문자 길이 지정
+   - button
+   - type : submit, reset, button -->
+   - sumit : 메세지 전송
+   - reset : 초기화
+   - button : 그냥 버튼(기능을 부여해야하는 버튼)

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      border: none;
+    }
+    td {
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+    }
+    input {
+      width: 300px;
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      height: 300px;
+      box-sizing: border-box;
+      resize: none;
+    }
+    button {
+      width: 150px;
+      padding: 10px 0px;
+    }
+    select {
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+    input[name*="tel"] {
+      width: 100px;
+      text-align: center;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: 16px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1><b>회원가입 페이지</b></h1>
+  <table>
+    <tr>
+      <td><b>아이디</b></td>
+      <td><input type="text" placeholder="아이디 입력"></td>
+    </tr>
+    <tr>
+      <td><b>암호</b></td>
+      <td><input type="password" placeholder="비밀번호 입력"></td>
+    </tr>
+    <tr>
+      <td><b>암호확인</b></td>
+      <td><input type="password" placeholder="비밀번호 다시 입력"></td>
+    </tr>
+    <tr>
+      <td><b>이름</b></td>
+      <td><input type="text" placeholder="이름 입력"></td>
+    </tr>
+    <tr>
+      <td><b>연락처</b></td>
+      <td><select name="tel" id="">
+        <option value="A" selected>010</option>
+        <option value="B">011</option>
+        <option value="C">016</option>
+        <option value="D">017</option>
+        <option value="E">019</option></select> <input type="text" name="" id=""><input type="text" name="" id=""></td>  
+    </tr>
+    <tr>
+      <td><b>이메일</b></td>
+      <td><input type="text"> @ <select name="emial" id="">
+      <option value="A">naer.com</option>
+      <option value="B">daum.net</option>
+      <option value="C">gmail.com</option>
+      <option value="D">직접입력</option></select></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>약관 동의</b> 
+        <input type="radio" checked name="agree" id="r1" value="Yes">
+        <label for="r1">동의</label>
+        <input type="radio" name="agree" id="r2" value="No">
+        <label for="r2">동의안함</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button>회원가입</button><button>초기화</button><button>취소</button></td>
+    </tr>
+    
+    
+    
+  </table>
+</body>
+</html>
+
+
+
+
